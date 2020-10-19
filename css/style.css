@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: auto;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.paral {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.paral1 {
+  background-image: url(../img/sea-wave.jpg);
+  min-height: 100vh;
+  background-position: 0 60%;
+}
+
+.paral2 {
+  background-image: url(../img/sea-wave2.jpg);
+  min-height: 40vh;
+}
+
+.paral3 {
+  background-image: url(../img/sea-wave3.jpg);
+  min-height: 40vh;
+}
+
+.buttons {
+  margin: 30px;
+}
+
+.read {
+  background: #a500a5;
+  border: 2px solid #a500a5;
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+  transition: 0.3s ease;
+}
+
+.read:hover {
+  background: transparent;
+}
+
+.download {
+  border: 2px solid #fff;
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+  transition: 0.3s ease;
+}
+
+.download:hover {
+  background: white;
+  color: #111;
+}
+
+.gallery-img {
+  position: relative;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: 0.3s ease;
+}
+
+.gallery-img:hover {
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 576px) {
+  .read,
+  .download {
+    padding: 5px 10px;
+  }
+}
