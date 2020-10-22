@@ -83,6 +83,9 @@ body {
 }
 
 @media only screen and (max-width: 576px) {
+  * {
+    text-align: center;
+  }
   .read,
   .download {
     padding: 5px 10px;
